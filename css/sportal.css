@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 2px;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+
+}
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+div{
+    /* border: solid black thin; */
+
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+
+
+}
+
+.meni{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.header2{
+    display: flex;
+    justify-content: end;
+}
+
+
+.meniItem a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.meni2Item a{
+    color: red;
+    text-decoration: none;
+}
+.meniBars{
+    width: 35px;
+    height: 1px;
+    border: solid white thin;
+    background-color: white;
+}
+
+.wrapperVesti{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.uspravneLeve{
+    width: 20%;
+}
+.icon a img{
+    width: 55px;
+    height: 42px;
+}
+.Icons{
+    display: flex;
+    justify-content: center;
+}
+
+.danasnjiMecevi{
+    text-align: center;
+}
+.wrapperMeceva{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.Mec{
+    width: 20%;
+}
+.Mec a h4{
+    width: 100%;
+    font-size: 1vh;
+}
+.iconKluba img{
+    width: 40px;
+    height: 45px;
+}
+
+.klub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.glavnaVest{
+    width: 34%;
+}
+.vest{
+    width: 25%;
+    margin: 10px;
+}
+.triVesti{
+    display: flex;
+    justify-content: center;   
+}
+.popularno{
+    background-color: red;
+    color: white;
+}
+.popularnoNaslov{
+    text-align: center;
+}
+.kruzneVesti{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+.kruznaVest{
+    width: 10%;
+}
+.kruznaVest p{
+    text-align: center;
+}
+.kruznaSlika a img{
+    border-radius: 90px;
+
+}
+.liiink{
+    color: white;
+}
+/* FOOTER START */
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    
+}
+.kolona{
+    width: 15%;
+    /* text-align: center; */
+    padding: 10px;
+    margin: 15px;
+}
+.contactInfo{
+    width: 15%;
+    height: 20vh;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    
+}
+.contactInfo p img{
+    width: 25px;
+    height: 20px;
+
+}
+.contactInfo p{
+    display: flex;
+    
+}
+.footer2{
+    background-color: lightgrey;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer2Content{
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+}
+.navigacija{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slicica{
+    width: 20%;
+}
+.navigacijaItem{
+    padding: 5px;
+}
+
+.kolona p a{
+    color: red;
+}
